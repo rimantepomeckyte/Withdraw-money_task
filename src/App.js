@@ -79,6 +79,7 @@ function App() {
                 // console.log(response)
                 console.log(data);
                 getBalance();
+                alert('Your amount of money has been withdrawn')
             }
         } catch (error) {
             console.log(error)
