@@ -73,7 +73,7 @@ function App() {
                     headers: {
                         "Content-Type": "application/json",
                     },
-                    body: JSON.stringify({withdrawAmount: withdrawAmount}),
+                    body: JSON.stringify({withdrawAmount: withdrawAmount}),//body ne withdraw kaip užduotyje yra nurodyta, o withdrawAmount
                 });
                 const data = await response.json();
                 // console.log(response)
